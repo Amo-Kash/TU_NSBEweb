@@ -1,0 +1,16 @@
+#intro-section {
+    /* background-image: url("/Images/TempleNSBE.jpg");
+    background-size: cover; 
+    background-position: center; */
+
+
+}
+
+.intro-body {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
