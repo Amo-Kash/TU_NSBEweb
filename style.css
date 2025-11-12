@@ -7,10 +7,20 @@
 }
 
 .intro-body {
-    color: white;
+    color: black;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    min-height: 100vh;
+    /*min-height: 100vh;*/
+}
+
+#about_page_body {
+    color: black;
+    display: flex;
+    flex-direction: column;
+    /*justify-content: center;
+    align-items: center;*/
+    padding-left: 10px;
+    padding-right: 10px;
 }
