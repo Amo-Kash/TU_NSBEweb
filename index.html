@@ -12,6 +12,11 @@
       integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
       crossorigin="anonymous"
     />
+    <link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
+/>
+
   </head>
   <body>
     <nav class="navbar navbar-expand-lg bg-body-tertiary pb-3">
@@ -41,7 +46,9 @@
         <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
           <div class="navbar-nav">
             <!--Home Page - basic info, calandar events-->
-            <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+            <a class="nav-link active" aria-current="page" href="index.html"
+              >Home</a
+            >
 
             <!--About Page - information about NSBE / Temple NSBE-->
             <a class="nav-link" href="about.html">About</a>
@@ -55,7 +62,7 @@
         </div>
       </div>
     </nav>
-    <section id="intro-section">
+    <section id="intro-section" style="position: relative;">
       <div
         id="carouselExampleSlidesOnly"
         class="carousel slide carousel-fade"
@@ -87,10 +94,50 @@
           </div>
         </div>
       </div>
-
-      <div class="intro-body text-center">
+    
+      <div class="intro-body text-center" style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); z-index: 10; color: white; text-shadow: 2px 2px 4px rgba(0,0,0,0.7);">
         <h1>Temple University</h1>
         <p>National Society of Black Engineers</p>
+      </div>
+    </section>
+    <section id="footer-section">
+      <div class="container">
+        <footer
+          class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top"
+        >
+          <div class="col-md-4 d-flex align-items-center">
+            <a
+              href="/"
+              class="mb-3 me-2 mb-md-0 text-body-secondary text-decoration-none lh-1"
+              aria-label="Bootstrap"
+            >
+              <svg class="bi" width="30" height="24" aria-hidden="true">
+                <use xlink:href="#bootstrap"></use>
+              </svg>
+            </a>
+            <span class="mb-3 mb-md-0 text-body-secondary fs-4"
+              >© 2025 Temple University</span
+            >
+          </div>
+          <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
+            <li class="ms-3">
+              <a class="text-body-secondary" href="https://www.instagram.com/templeu_nsbe/" target="_blank">
+                <i class="bi bi-instagram fs-4"></i>
+              </a>
+              
+              </a>
+            </li>
+
+            <li class="ms-3">
+              <a class="text-body-secondary" href="https://www.tiktok.com/@templeu_nsbe" target="_blank">
+                <i class="bi bi-tiktok fs-4"></i>
+              </a>
+              
+              </a>
+            </li>
+          
+          </ul>
+        </footer>
       </div>
     </section>
 
